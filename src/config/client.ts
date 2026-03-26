@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "5",
 
   // Services
   services: [
@@ -79,9 +79,11 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Rachel Goozee", rating: 5, text: "It’s been an absolute pleasure working with Esse landscapes over the past six months. Professional and an absolute delight on site thank you so much. ", date: "2 months ago" },
+    { name: "Nick H", rating: 5, text: "Steve and the whole team at Esse landscapes are fantastic to work with. They were really helpful in developing detail plans for our garden and the team on the ground were great - focused on delivering a high standard of work (in …  ", date: "2 years ago" },
+    { name: "Jenni Seltzer", rating: 5, text: "Highly recommend  Esse landscapes on every level. Extremely professional, courteous and pleasant to deal with. You only have to look at their award winning landscaping to see the impeccable …  ", date: "8 years ago" },
+    { name: "adam heslop", rating: 5, text: "A new courtyard, electric gate, drive, parking, turfing and fencing expertly delivered and integrated into our existing landscaping by the Esse team, seamlessly coordinated by Steve. Highly recommended. ", date: "6 years ago" },
+    { name: "Chris Archibald", rating: 5, text: "Steve, Bobby, Jamie, Pat and the rest of the team were very easy to work with and delivered a very high standard of work. Recommended! ", date: "8 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
